@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ghpagesdemo/static/css/main.cd04f290.css",
+    "main.js": "/ghpagesdemo/static/js/main.6059e40f.js",
+    "static/js/483.698b9fd8.chunk.js": "/ghpagesdemo/static/js/483.698b9fd8.chunk.js",
+    "static/media/gettyimages-1232574287-612x612.jpg": "/ghpagesdemo/static/media/gettyimages-1232574287-612x612.0a9cbbcd3cbd4cbed8a7.jpg",
+    "static/media/gettyimages-1199899108-612x612.jpg": "/ghpagesdemo/static/media/gettyimages-1199899108-612x612.091a2e1543f4157d6b63.jpg",
+    "static/media/gettyimages-1232572541-612x612.jpg": "/ghpagesdemo/static/media/gettyimages-1232572541-612x612.26e642d896b7a207e0ec.jpg",
+    "static/media/slick.svg": "/ghpagesdemo/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ghpagesdemo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ghpagesdemo/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ghpagesdemo/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ghpagesdemo/index.html",
+    "main.cd04f290.css.map": "/ghpagesdemo/static/css/main.cd04f290.css.map",
+    "main.6059e40f.js.map": "/ghpagesdemo/static/js/main.6059e40f.js.map",
+    "483.698b9fd8.chunk.js.map": "/ghpagesdemo/static/js/483.698b9fd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd04f290.css",
+    "static/js/main.6059e40f.js"
+  ]
+}

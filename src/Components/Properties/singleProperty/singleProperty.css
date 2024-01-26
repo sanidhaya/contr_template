@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+   }
+   
+   .row-ele {
+    margin-bottom: 16px;
+   }
+   
+   .text-2xl {
+    font-size: 24px;
+    line-height: 32px;
+   }
+   
+   .font-bold {
+    font-weight: 700;
+   }
+   
+   .mt-4 {
+    margin-top: 16px;
+   }
+
+   .card-slider{
+    padding: 10px;
+   }

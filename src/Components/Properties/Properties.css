@@ -1,0 +1,52 @@
+/* YourComponent.css */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.image-container {
+    position: relative;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    object-position: center; /* Centers the image within the container */
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .centered-heading {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add spacing between heading and text */
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block; /* Allow the background to be as wide as the content */
+  }
+  
+  .adjustable-text {
+    /*max-width: 80%; /* Adjust the max-width as needed */
+    padding: 20px; /* Add padding as needed */
+    background-color: rgba(0, 0, 0, 0.561); /* Adjust the background color and opacity */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+  }
+
+  .see-properties{
+    padding: 10px;
+    margin: 20px;
+  }

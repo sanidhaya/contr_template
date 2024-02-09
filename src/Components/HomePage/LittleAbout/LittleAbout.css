@@ -1,0 +1,40 @@
+/* Set a common style for the image */
+.littleaboutimage {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 3%;
+}
+
+/* Adjust image width for different screen sizes */
+@media (max-width: 767px) {
+    .littleaboutimage {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .littleaboutimage {
+        width: 50%;
+    }
+}
+
+/* Common styles for all screen sizes */
+.littleaboutimage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.littleaboutheading {
+    font-size: 1.75rem; /* Equivalent to 28px */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.littleabouttext {
+    font-size: 1rem; /* Equivalent to 16px */
+    color: #777;
+    line-height: 1.5;
+}

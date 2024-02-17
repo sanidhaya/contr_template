@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.36db08be.css",
-    "main.js": "/static/js/main.3f63a567.js",
-    "static/js/483.f39b8614.chunk.js": "/static/js/483.f39b8614.chunk.js",
+    "main.css": "/static/css/main.c9b5f786.css",
+    "main.js": "/static/js/main.90f03e3c.js",
+    "static/js/483.9518aa0e.chunk.js": "/static/js/483.9518aa0e.chunk.js",
+    "static/media/png": "/static/media/54cd4aa74a68a8831854da5008cb674d.d891fb8124d954b798ab.png",
+    "static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg": "/static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.23d2bd7292d7bf1230a6.jpg",
+    "static/media/21211028-new-york-city-cityscape-on-a-sunny-day.jpg": "/static/media/21211028-new-york-city-cityscape-on-a-sunny-day.5cd6089194752802a780.jpg",
+    "static/media/the-exterior-facade-of-a-generic-small-business-building-W8WPEA.jpg": "/static/media/the-exterior-facade-of-a-generic-small-business-building-W8WPEA.e097cf87ac3d0ab9f0b1.jpg",
+    "static/media/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp": "/static/media/beautiful-sunset-los-angeles-downtown-600nw-1418018357.221e7e8f58dcb5f529c4.webp",
+    "static/media/losangeles-california.jpg": "/static/media/losangeles-california.07b160c2ec0929ed92e7.jpg",
+    "static/media/istockphoto-1647951807-170667a.webp": "/static/media/istockphoto-1647951807-170667a.51702557c74e7500fdcd.webp",
     "static/media/gettyimages-1232574287-612x612.jpg": "/static/media/gettyimages-1232574287-612x612.0a9cbbcd3cbd4cbed8a7.jpg",
     "static/media/gettyimages-1199899108-612x612.jpg": "/static/media/gettyimages-1199899108-612x612.091a2e1543f4157d6b63.jpg",
     "static/media/gettyimages-1232572541-612x612.jpg": "/static/media/gettyimages-1232572541-612x612.26e642d896b7a207e0ec.jpg",
+    "static/media/images.jpg": "/static/media/images.ce44e2b85361c733ac03.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.36db08be.css.map": "/static/css/main.36db08be.css.map",
-    "main.3f63a567.js.map": "/static/js/main.3f63a567.js.map",
-    "483.f39b8614.chunk.js.map": "/static/js/483.f39b8614.chunk.js.map"
+    "main.c9b5f786.css.map": "/static/css/main.c9b5f786.css.map",
+    "main.90f03e3c.js.map": "/static/js/main.90f03e3c.js.map",
+    "483.9518aa0e.chunk.js.map": "/static/js/483.9518aa0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36db08be.css",
-    "static/js/main.3f63a567.js"
+    "static/css/main.c9b5f786.css",
+    "static/js/main.90f03e3c.js"
   ]
 }

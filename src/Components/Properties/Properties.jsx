@@ -1,6 +1,6 @@
 import React from 'react'
 import './Properties.css'
-import image1 from '../../assets/images/slides/gettyimages-1199899108-612x612.jpg'
+import image1 from '../../images/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp'
 import GoogleMaps from './googleMaps/googleMaps'
 import SeeAllProperties from './SeeAllProperties/SeeAllProperties'
 import SingleProperty from './singleProperty/singleProperty'

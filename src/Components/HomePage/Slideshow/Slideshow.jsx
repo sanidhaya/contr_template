@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import image1 from '../../../assets/images/slides/gettyimages-1232572541-612x612.jpg'
+import image1 from '../../../images/21211028-new-york-city-cityscape-on-a-sunny-day.jpg'
 import image2 from '../../../assets/images/slides/gettyimages-1199899108-612x612.jpg'
 import image3 from '../../../assets/images/slides/gettyimages-1232574287-612x612.jpg'
 import { BsChevronCompactLeft,BsChevronCompactRight } from 'react-icons/bs'

@@ -4,9 +4,9 @@ import {FreeMode} from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/free-mode'
 
-import image1 from '../../../../assets/images/slides/gettyimages-1199899108-612x612.jpg'
-import image2 from '../../../../assets/images/slides/gettyimages-1232572541-612x612.jpg'
-import image3 from '../../../../assets/images/slides/gettyimages-1232574287-612x612.jpg'
+import image1 from '../../../../images/istockphoto-1647951807-170667a.webp'
+import image2 from '../../../../images/losangeles-california.jpg'
+import image3 from '../../../../images/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp'
 
 const slides = [
     {image:{image1},title:"This is a title",description:"This is a description"},

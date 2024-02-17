@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.css'
+import image1 from '../../images/istockphoto-1647951807-170667a.webp'
+import image2 from '../../images/images.jpg'
 
 
 const Award = ({ title, description, image }) => (
@@ -54,12 +56,12 @@ const About = () => {
             <Award
               title="Construction Excellence Award"
               description="Received for outstanding achievements in construction management."
-              image="url-to-award-image-1.jpg"
+              image={image2}
             />
             <Award
               title="Innovation in Project Delivery"
               description="Recognized for innovative approaches in delivering construction projects."
-              image="url-to-award-image-2.jpg"
+              image={image1}
             />
             {/* Add more awards as needed */}
           </div>

@@ -6,9 +6,9 @@ types = {
 }
 */
 
-import image1 from './assets/images/slides/gettyimages-1232572541-612x612.jpg'
-import image2 from './assets/images/slides/gettyimages-1199899108-612x612.jpg'
-import image3 from './assets/images/slides/gettyimages-1232574287-612x612.jpg'
+import image1 from './images/the-exterior-facade-of-a-generic-small-business-building-W8WPEA.jpg'
+import image2 from './images/losangeles-california.jpg'
+import image3 from './images/losangeles-california.jpg'
 
 
 const Listings = [

@@ -1,63 +1,35 @@
 import React from 'react';
-import Cards from './Cards/Cards';
-import Listings from '../../../Listings';
-import Slider from "react-slick"
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-//import './MajorListings.css'
-
-function SampleNextArrow(props){
-  const {className, style, onClick} = props;
-
-  return (<div 
-          className={className}
-          style={{...style, display:"block", background:"red"}}
-          onClick={onClick}
-          />
-  )
-}
-
-function SamplePrevArrow(props){
-  const {className, style, onClick} = props;
-
-  return(
-    <div className={className}
-          style={{...style, display:"block", background:"grey"}}
-          onClick={onClick}
-          />
-  )
-}
+import Cards from './Cards/Cards';
+import Listings from '../../../Listings';
+import './MajorListings.css';
 
 const MajorListings = () => {
-
   const settings = {
-    className : "center",
-    dots : true,
+    className: "center",
+    dots: true,
     infinite: true,
     slidesToShow: 4,
-    initialSlide : 0, 
+    initialSlide: 0,
     centerPadding: "60px"
-   }
+  };
 
   return (
-    <div className='m-10 mj-listings'>
-    <div className='m-10 major_listings'>
-      <div className="sliding_card">
-      <h1 className="major_listing">Major Listings</h1>
+    <div className='major-listings-container'>
+      <h1 className="major-listing-title">Major Listings</h1>
+      <div className="major-listings">
+        <div className="sliding-card">
           <Slider {...settings}>
-        {Listings.map((Lists) => (
-          <>
-            {/*console.log(Lists)*/}
-            
-            <div key={Lists.Title}>
-              <Cards Listing={Lists} Listing_Text="The text" />
-            </div>
-            
-          </>
-        ))}
-        </Slider>
+            {Listings.map((list) => (
+              <div key={list.Title}>
+                <Cards listing={list} text="The text" />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
     </div>
   );
 };

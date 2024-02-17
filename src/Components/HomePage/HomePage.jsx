@@ -9,9 +9,9 @@ import PhoneIcon from '@mui/icons-material/Phone'
 import LittleAbout from "./LittleAbout/LittleAbout"
 import MajorListings from "./MajorListings/MajorListings"
 import Button from 'react-bootstrap/Button'
-import image1 from '../../assets/images/slides/gettyimages-1199899108-612x612.jpg'
-import image2 from '../../assets/images/slides/gettyimages-1232572541-612x612.jpg'
-import image3 from '../../assets/images/slides/gettyimages-1232574287-612x612.jpg'
+import image1 from '../../images/21211028-new-york-city-cityscape-on-a-sunny-day.jpg'
+import image2 from '../../images/54cd4aa74a68a8831854da5008cb674d.png'
+import image3 from '../../images/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg'
 import Collage from "./Slideshow/Carousal"
 
 const slides = [

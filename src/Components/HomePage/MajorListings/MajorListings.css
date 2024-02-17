@@ -1,12 +1,21 @@
-.major_listings{
+.major-listings-container {
+    margin: 20px;
+  }
+  
+  .major-listing-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .major-listings {
     display: flex;
     align-items: center;
-}
-
-.sliding_card{
-    width: 600px;
-}
-
-.mj-listings{
-    margin: 20px;
-}
+  }
+  
+  .sliding-card {
+    width: 100%;
+  }
+  
+  /* Add any additional styling as needed */
+  

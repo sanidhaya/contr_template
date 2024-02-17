@@ -5,7 +5,7 @@ import './Collage.css'
 
 const Image = styled.img`
     width: 100%;
-    height: 100%;
+    height: 750px;
     object-fit: cover;
 `;
 

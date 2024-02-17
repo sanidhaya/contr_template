@@ -14,6 +14,8 @@
     height: 45vh;
 }
 
-.LoadmoreProperties{
+.LoadmoreProperties {
     margin: 10px;
-}
+    display: flex;
+    justify-content: center;
+  }

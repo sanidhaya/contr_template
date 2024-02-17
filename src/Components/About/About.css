@@ -1,0 +1,52 @@
+.about-page {
+    background-color: #f7fafc; /* Set the background color of the about page */
+  }
+  
+  .about-content {
+    max-width: 48rem; /* Adjust the max width of the content container */
+    margin: 0 auto; /* Center the content container */
+  }
+  
+  /* Style for Awards and Newspaper Snippets */
+  .mb-4 {
+    margin-bottom: 1.5rem; /* Adjust the margin between each award or newspaper snippet */
+  }
+  
+  /* Style for Images in Awards */
+  img.mb-2 {
+    display: block; /* Make the image a block element */
+    margin-bottom: 0.5rem; /* Adjust the margin below the image */
+  }
+  
+  /* Style for Headlines */
+  .text-lg {
+    font-size: 1.125rem; /* Adjust the font size of the headlines */
+  }
+  
+  /* Style for the entire text in the components */
+  .text-lg,
+  .text-xl {
+    line-height: 1.5; /* Adjust the line height for better readability */
+  }
+  
+  /* Style for the grid layout */
+  .grid {
+    display: grid;
+  }
+  
+  /* Style for grid columns on different screen sizes */
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  @media (min-width: 768px) {
+    .md\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .lg\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }

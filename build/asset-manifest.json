@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9b5f786.css",
-    "main.js": "/static/js/main.90f03e3c.js",
-    "static/js/483.9518aa0e.chunk.js": "/static/js/483.9518aa0e.chunk.js",
+    "main.css": "/static/css/main.af6f46d6.css",
+    "main.js": "/static/js/main.8fe3a4ca.js",
+    "static/js/483.f39b8614.chunk.js": "/static/js/483.f39b8614.chunk.js",
     "static/media/png": "/static/media/54cd4aa74a68a8831854da5008cb674d.d891fb8124d954b798ab.png",
     "static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg": "/static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.23d2bd7292d7bf1230a6.jpg",
     "static/media/21211028-new-york-city-cityscape-on-a-sunny-day.jpg": "/static/media/21211028-new-york-city-cityscape-on-a-sunny-day.5cd6089194752802a780.jpg",
@@ -19,12 +19,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c9b5f786.css.map": "/static/css/main.c9b5f786.css.map",
-    "main.90f03e3c.js.map": "/static/js/main.90f03e3c.js.map",
-    "483.9518aa0e.chunk.js.map": "/static/js/483.9518aa0e.chunk.js.map"
+    "main.af6f46d6.css.map": "/static/css/main.af6f46d6.css.map",
+    "main.8fe3a4ca.js.map": "/static/js/main.8fe3a4ca.js.map",
+    "483.f39b8614.chunk.js.map": "/static/js/483.f39b8614.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9b5f786.css",
-    "static/js/main.90f03e3c.js"
+    "static/css/main.af6f46d6.css",
+    "static/js/main.8fe3a4ca.js"
   ]
 }

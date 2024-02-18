@@ -56,7 +56,7 @@ const HomePage = () => {
   return (
     <>
         {/*-------------Header-------------------*/}
-        <Header />
+        {/*<Header />*/}
         {/*-------------Header-------------------*/}
         {/*------------slideshow-----------------*/}
         <div className="collage-slides">
@@ -69,7 +69,7 @@ const HomePage = () => {
         </div>
         {/*--basic bits likebest in class sols---*/}
         {/*-----------major listings-------------*/}
-        <div class="majorlistings">
+        <div className="majorlistings">
           <MajorListings />
         </div>
         {/*-----------major listings-------------*/}

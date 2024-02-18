@@ -1,0 +1,59 @@
+/* propertyCards.css */
+
+/* Container styling */
+.property-card-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Card styling */
+  .property-card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .property-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Card image styling */
+  .property-card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card title styling */
+  .property-card-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Card text styling */
+  .property-card-text {
+    text-align: center;
+    color: #555;
+  }
+  
+  /* List group item styling */
+  .property-list-item {
+    background-color: #f8f9fa;
+  }
+  
+  /* Card link styling */
+  .property-card-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .property-card-link:hover {
+    color: #0056b3;
+  }
+  

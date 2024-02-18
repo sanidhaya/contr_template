@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import { BsChevronCompactLeft,BsChevronCompactRight } from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
-import image1 from '../../../../assets/images/slides/gettyimages-1199899108-612x612.jpg'
-import image2 from '../../../../assets/images/slides/gettyimages-1232572541-612x612.jpg'
-import image3 from '../../../../assets/images/slides/gettyimages-1232574287-612x612.jpg'
+import image1 from '../../../../images/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg'
+import image2 from '../../../../images/beautiful-sunset-los-angeles-downtown-600nw-1418018357 (1).webp'
+import image3 from '../../../../images/istockphoto-478821794-170667a.webp'
 
 const slides = [
     {url:image1,image:{image1},title:"This is a title",description:"This is a description"},

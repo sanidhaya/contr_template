@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import image1 from '../../images/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp'
+import image1 from '../../assets/asset-images/componylogo/companylogo3.jpg'
 
 const Footer = () => {
   return (
@@ -10,8 +10,7 @@ const Footer = () => {
                     <img src={image1} alt="Company Logo" />
                 </div>
                 <div className="footer-info">
-                    <h4>Company Name</h4>
-                    <p>About Us: A brief description of the company.</p>
+                    <h4>Heera Properties</h4>
                     <p>Contact Us: contact@company.com</p>
                 </div>
                 <div className="additional-info">

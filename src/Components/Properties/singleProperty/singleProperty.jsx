@@ -39,9 +39,9 @@ const SingleProperty = () => {
       <div>
         <h1 className="text-2xl font-bold">{propertyDetails.title}</h1>
       </div>
-      <div className="mt-4">
+      {/*<div >
         <Slider />
-      </div>
+      </div>*/}
       <div className="mt-4">
       <Basicdata />
       </div>

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Cards from './Cards/Cards';
 import Listings from '../../../Listings';
 import './MajorListings.css';
+import Properties from '../../../Properties';
 
 const MajorListings = () => {
   const settings = {
@@ -22,7 +23,7 @@ const MajorListings = () => {
       <div className="major-listings">
         <div className="sliding-card">
           <Slider {...settings}>
-            {Listings.map((list) => (
+            {Properties.map((list) => (
               <div key={list.Title}>
                 <Cards listing={list} text="The text" />
               </div>

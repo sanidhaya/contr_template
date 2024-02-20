@@ -11,7 +11,7 @@ const Cards = ({ listing, text }) => {
         <Card.Body>
           <Card.Title>{listing.Title}</Card.Title>
           <Card.Text>{text}</Card.Text>
-          <Button variant='primary'>More Details</Button>
+          <Button href={`/properties/${listing.id}`} variant='primary'>More Details</Button>
         </Card.Body>
       </Card>
     </div>

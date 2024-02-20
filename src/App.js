@@ -6,9 +6,11 @@ import Properties from "./Components/Properties/Properties";
 import About from "./Components/About/About";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import SingleProperty from "./Components/Properties/singleProperty/singleProperty";
+import './App.css'
 
 function App() {
   return (
+    <div className="website">
     <Router>
       <Navba />
         <Routes>
@@ -20,6 +22,7 @@ function App() {
         </Routes>
       <Foots />
     </Router>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import image1 from '../../images/istockphoto-1647951807-170667a.webp'
-import image2 from '../../images/images.jpg'
+import image1 from '../../assets/asset-images/awards/newspaperimg1.jpg'
+import image2 from '../../assets/asset-images/awards/newspaperimg2.jpg'
 
 
 const Award = ({ title, description, image }) => (
@@ -12,8 +12,9 @@ const Award = ({ title, description, image }) => (
   </div>
 );
 
-const NewspaperSnippet = ({ headline, snippet }) => (
+const NewspaperSnippet = ({ headline, snippet, image }) => (
   <div className="mb-4">
+    <img src={image} className="mb-2" style={{ maxWidth: '100%', height: 'auto' }} />
     <h3 className="text-lg font-semibold">{headline}</h3>
     <p>{snippet}</p>
   </div>
@@ -25,8 +26,8 @@ const About = () => {
       <div className="about-content max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p className="mb-4">
-          Welcome to [Your Brokerage Firm], your trusted partner in construction brokerage services.
-          With [number] years of experience in the industry, we specialize in connecting clients
+          Welcome to Heera Properties, your trusted partner in construction brokerage services.
+          With 20+ years of experience in the industry, we specialize in connecting clients
           with the best construction professionals and projects.
         </p>
         <p className="mb-4">
@@ -42,7 +43,7 @@ const About = () => {
           <li>Quality assurance and project oversight</li>
           <li>Client satisfaction monitoring</li>
         </ul>
-        <h2 className="text-xl font-bold mb-2">Why Choose [Your Brokerage Firm]?</h2>
+        <h2 className="text-xl font-bold mb-2">Why Choose Heera Properties?</h2>
         <ul className="list-disc pl-6 mb-4">
           <li>Extensive network of trusted construction professionals</li>
           <li>Personalized service tailored to your project needs</li>
@@ -74,10 +75,12 @@ const About = () => {
             <NewspaperSnippet
               headline="Local Construction Firm Wins Top Honors"
               snippet="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              image={image1}
             />
             <NewspaperSnippet
               headline="Breaking Ground on Innovative Project"
               snippet="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              image={image2}
             />
             {/* Add more newspaper snippets as needed */}
           </div>

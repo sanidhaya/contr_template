@@ -54,7 +54,7 @@ const Header = () => {
 
 const HomePage = () => {
   return (
-    <>
+    <div className="homepage">
         {/*-------------Header-------------------*/}
         {/*<Header />*/}
         {/*-------------Header-------------------*/}
@@ -79,7 +79,7 @@ const HomePage = () => {
         </div>
         {/*-----------load more button-----------*/}
         {/*-----------testimonials---------------*/}
-    </>
+    </div>
   )
 }
 

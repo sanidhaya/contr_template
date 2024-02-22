@@ -1,0 +1,70 @@
+/* Resetting margin and padding for better consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Main Heading Styles */
+  .service-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 7px;
+  }
+
+  /* Container for Image and Text */
+  .service-img-txt {
+    padding: 5%;
+  }
+
+  /* Image Container Styles */
+  .service-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 600px;
+    overflow: hidden;
+  }
+
+  /* Image Styles */
+  .service-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    padding: 20px;
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+  }
+
+  /* Text Styles */
+  .service-text {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-container {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 400px; /* Set a fixed width for the container */
+  }
+
+  .contact-heading {
+    flex: 1; /* Make the heading take up the full width of the container */
+  }
+
+  /* Contact Form Container */
+  .contact-form-container {
+    margin-top: 20px; /* Add space between text and contact form */
+  }

@@ -1,12 +1,13 @@
-import Foots from "./Components/Footer/Footer";
-import Navba from "./Components/Navbar/Navbar";
-import HomePage from "./Components/HomePage/HomePage";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import Properties from "./Components/Properties/Properties";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import './App.css';
 import About from "./Components/About/About";
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import Foots from "./Components/Footer/Footer";
+import HomePage from "./Components/HomePage/HomePage";
+import Navba from "./Components/Navbar/Navbar";
+import Properties from "./Components/Properties/Properties";
 import SingleProperty from "./Components/Properties/singleProperty/singleProperty";
-import './App.css'
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
           <Route exact path="/About" element = {<About/>} />
           <Route exact path="/ContactUs" element = {<ContactUs/>} />
           <Route path="/properties/:id" element = {<SingleProperty/>} />
+          <Route path="/services/:id" element={<Services/>} />
         </Routes>
-      <Foots />
+      <Foots className="foots"/>
     </Router>
     </div>
   );

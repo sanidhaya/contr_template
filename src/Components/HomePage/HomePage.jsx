@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom"
-import React from 'react'
-import './HomePage.css'
-import Container from "react-bootstrap/Container"
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import EmailIcon from '@mui/icons-material/Email'
 import PhoneIcon from '@mui/icons-material/Phone'
-import LittleAbout from "./LittleAbout/LittleAbout"
-import MajorListings from "./MajorListings/MajorListings"
+import React from 'react'
 import Button from 'react-bootstrap/Button'
+import Col from 'react-bootstrap/Col'
+import Container from "react-bootstrap/Container"
+import Row from 'react-bootstrap/Row'
+import { Link } from "react-router-dom"
 import image1 from '../../images/21211028-new-york-city-cityscape-on-a-sunny-day.jpg'
 import image2 from '../../images/54cd4aa74a68a8831854da5008cb674d.png'
 import image3 from '../../images/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg'
+import './HomePage.css'
+import LittleAbout from "./LittleAbout/LittleAbout"
+import MajorListings from "./MajorListings/MajorListings"
 import Collage from "./Slideshow/Carousal"
 
 const slides = [
@@ -63,16 +63,16 @@ const HomePage = () => {
           <Collage slides={slides}/>
         </div>
         {/*------------slideshow-----------------*/}
-        {/*--basic bits likebest in class sols---*/}
-        <div className="little-about">
-          <LittleAbout /> 
-        </div>
-        {/*--basic bits likebest in class sols---*/}
         {/*-----------major listings-------------*/}
         <div className="majorlistings">
           <MajorListings />
         </div>
         {/*-----------major listings-------------*/}
+        {/*--basic bits likebest in class sols---*/}
+        <div className="little-about">
+          <LittleAbout /> 
+        </div>
+        {/*--basic bits likebest in class sols---*/}
         {/*-----------load more button-----------*/}
         <div className="LoadmoreProperties">
         <LoadMore />

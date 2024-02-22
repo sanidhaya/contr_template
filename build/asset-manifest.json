@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d63a653.css",
-    "main.js": "/static/js/main.a4a6ac7e.js",
+    "main.js": "/static/js/main.2cb01b44.js",
     "static/js/483.9518aa0e.chunk.js": "/static/js/483.9518aa0e.chunk.js",
     "static/media/png": "/static/media/54cd4aa74a68a8831854da5008cb674d.d891fb8124d954b798ab.png",
     "static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg": "/static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.23d2bd7292d7bf1230a6.jpg",
@@ -22,11 +22,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.2d63a653.css.map": "/static/css/main.2d63a653.css.map",
-    "main.a4a6ac7e.js.map": "/static/js/main.a4a6ac7e.js.map",
+    "main.2cb01b44.js.map": "/static/js/main.2cb01b44.js.map",
     "483.9518aa0e.chunk.js.map": "/static/js/483.9518aa0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d63a653.css",
-    "static/js/main.a4a6ac7e.js"
+    "static/js/main.2cb01b44.js"
   ]
 }

@@ -68,16 +68,16 @@ const HomePage = () => {
           <MajorListings />
         </div>
         {/*-----------major listings-------------*/}
-        {/*--basic bits likebest in class sols---*/}
-        <div className="little-about">
-          <LittleAbout /> 
-        </div>
-        {/*--basic bits likebest in class sols---*/}
         {/*-----------load more button-----------*/}
         <div className="LoadmoreProperties">
         <LoadMore />
         </div>
         {/*-----------load more button-----------*/}
+        {/*--basic bits likebest in class sols---*/}
+        <div className="little-about">
+          <LittleAbout /> 
+        </div>
+        {/*--basic bits likebest in class sols---*/}
         {/*-----------testimonials---------------*/}
     </div>
   )

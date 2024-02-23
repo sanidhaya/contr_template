@@ -1,49 +1,72 @@
-/* Footer styles */
-.footer {
-  background-color: #000;
-  color: #fff;
-  width: 100%;
-  margin-top: 60px;
+/* Add this CSS in your styles file */
+
+/* Footer Styles */
+footer {
+  background-color: #333;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  bottom: 0;
-}
-
-/* Footer content container */
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-/* Company logo styles */
-.footer-logo img {
-  height: 30px; /* Adjust height as needed */
+/* Company Logo Styles */
+footer a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer img {
+  height: 40px; /* Adjust the height as needed */
   margin-right: 10px;
 }
 
-/* Additional information styles */
-.additional-info {
-  text-align: right;
-  flex-grow: 1;
+/* Navigation Links Styles */
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 20px;
 }
 
-/* Copyright text styles */
-.copyright-text {
-  margin-top: 20px;
-  text-align: center;
-  color: #777;
+footer li {
+  margin-right: 20px;
 }
 
-.copyright-text a {
-  color: #007bff;
+footer a {
   text-decoration: none;
-  transition: color 0.3s ease;
+  color: white;
+  transition: color 0.3s ease-in-out;
 }
 
-.copyright-text a:hover {
-  color: #0056b3;
+footer a:hover {
+  color: #007bff; /* Change to your desired hover color */
+}
+
+/* Bottom Text Styles */
+footer span {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode footer {
+  background-color: #2d2d2d;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #333;
+}
+
+body.dark-mode footer a {
+  color: #333;
+}
+
+body.dark-mode footer a:hover {
+  color: #007bff; /* Change to your desired hover color in dark mode */
+}
+
+body.dark-mode footer span {
+  color: #888;
 }

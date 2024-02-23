@@ -50,3 +50,25 @@ html {
     padding: 10px;
     margin: 20px;
   }
+
+
+  .amenities-section {
+    background-color: #f8f8f8; /* Off-white background color */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .amenities-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .amenity-box {
+    background-color: #fff; /* White background color */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+  }

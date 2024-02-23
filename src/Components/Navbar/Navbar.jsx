@@ -26,7 +26,7 @@ const Navba = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">Features</Nav.Link>
-            <Nav.Link href="/properties">Pricing</Nav.Link>
+            <Nav.Link href="/properties">Projects</Nav.Link>
             <Nav.Link href="/ContactUs">Contact us</Nav.Link>
             <Nav.Link>
               <Dropdown>

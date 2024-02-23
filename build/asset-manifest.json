@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e3c5f29.css",
-    "main.js": "/static/js/main.bb3c8c2c.js",
+    "main.css": "/static/css/main.323abcf3.css",
+    "main.js": "/static/js/main.7bdb62ca.js",
     "static/js/483.f39b8614.chunk.js": "/static/js/483.f39b8614.chunk.js",
     "static/media/png": "/static/media/54cd4aa74a68a8831854da5008cb674d.d891fb8124d954b798ab.png",
     "static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg": "/static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.23d2bd7292d7bf1230a6.jpg",
@@ -20,12 +20,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.5e3c5f29.css.map": "/static/css/main.5e3c5f29.css.map",
-    "main.bb3c8c2c.js.map": "/static/js/main.bb3c8c2c.js.map",
+    "main.323abcf3.css.map": "/static/css/main.323abcf3.css.map",
+    "main.7bdb62ca.js.map": "/static/js/main.7bdb62ca.js.map",
     "483.f39b8614.chunk.js.map": "/static/js/483.f39b8614.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e3c5f29.css",
-    "static/js/main.bb3c8c2c.js"
+    "static/css/main.323abcf3.css",
+    "static/js/main.7bdb62ca.js"
   ]
 }

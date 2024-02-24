@@ -1,5 +1,6 @@
 import EmailIcon from '@mui/icons-material/Email'
 import PhoneIcon from '@mui/icons-material/Phone'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import React from 'react'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
@@ -36,12 +37,13 @@ const LoadMore = () => {
 
 const Header = () => {
   return (
-    <div>
-      <Container>
-        <div className='header_company md:w-full'>
+    <div className='header_company'>
+      <Container >
+        <div className='md:w-full'>
           <Row md={4} className="toprow">
-            <Col md={6}><Link to="tel:8800353579"> <PhoneIcon fontSize="large"/>  telephone </Link></Col>
-            <Col md={6}><Link to="tel:sanidhaya08sharma11@gmail.com"> <EmailIcon fontSize="large"/> email</Link></Col>
+            <Col md={4}><Link to="tel:8800353579"> <PhoneIcon fontSize="large"/>  telephone </Link></Col>
+            <Col md={5}><Link to="tel:sanidhaya08sharma11@gmail.com"> <EmailIcon fontSize="large"/> email : abc@gmail.com </Link></Col>
+            <Col md={3}><Link to="https://wa.me/1234567890"><WhatsAppIcon fontSize='large'/>1234567890</Link></Col>
           </Row>
         </div>
       </Container>
@@ -56,7 +58,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
         {/*-------------Header-------------------*/}
-        {/*<Header />*/}
+        <Header className="header" />
         {/*-------------Header-------------------*/}
         {/*------------slideshow-----------------*/}
         <div className="collage-slides">

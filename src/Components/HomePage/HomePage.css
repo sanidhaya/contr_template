@@ -6,6 +6,32 @@
     padding-bottom: 30px;
 }
 
+.header{
+    background-color: black;
+    color: white;
+    
+}
+
+.header_company {
+    background-color: black;
+    color: white;
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  .toprow {
+    padding: 0; /* Remove the previous padding */
+  }
+  
+  .toprow a {
+    color: white;
+  }
+  
+  .toprow a:hover {
+    text-decoration: none;
+    color: white; /* Adjust the color on hover as needed */
+  }
+  
+
 .majorlistings{
     display: 'flex';
     flex-direction: column;

@@ -1,5 +1,6 @@
 .major-listings-container {
     margin: 20px;
+    padding: 20px;
   }
   
   .major-listing-title {
@@ -14,10 +15,13 @@
   }
   
   .sliding-card {
-    width: 100%;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
+
+  
   
   /* Add any additional styling as needed */
   

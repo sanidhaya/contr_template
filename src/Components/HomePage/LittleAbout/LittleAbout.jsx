@@ -1,12 +1,13 @@
 import React from 'react';
-import image1 from '../../../images/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import image1 from '../../../images/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg';
 import './LittleAbout.css';
 
 const LittleAbout = () => {
   return (
+    <div>
     <Container fluid className='littleabout-container'>
       <Row>
         {/* Image Container */}
@@ -23,6 +24,7 @@ const LittleAbout = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

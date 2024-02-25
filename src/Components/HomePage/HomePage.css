@@ -33,7 +33,7 @@
   
 
 .majorlistings{
-    display: 'flex';
+    display: flex;
     flex-direction: column;
     justify-content: 'center';
     align-items: 'center';
@@ -42,19 +42,30 @@
     margin-bottom: 20px;
 }
 
+.little-about{
+  padding-top: 20px;
+}
+
 .LoadmoreProperties {
     margin: 0;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 32rem;
   }
 
-@media screen and (min-width:1800px) {
+@media screen and (min-width:2000px) {
     .majorlistings{
         display: 'flex';
         flex-direction: column;
         justify-content: 'center';
         align-items: 'center';
         height: 45vh;
+    }
+
+    .LoadmoreProperties {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      padding-top: 24rem;
     }
 }

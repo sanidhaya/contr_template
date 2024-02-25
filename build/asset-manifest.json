@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.109a4cb8.css",
-    "main.js": "/static/js/main.e5b41df2.js",
+    "main.css": "/static/css/main.285883fc.css",
+    "main.js": "/static/js/main.89a9c90f.js",
     "static/js/483.9518aa0e.chunk.js": "/static/js/483.9518aa0e.chunk.js",
     "static/media/png": "/static/media/54cd4aa74a68a8831854da5008cb674d.d891fb8124d954b798ab.png",
     "static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.jpg": "/static/media/HD-wallpaper-city-street-buildings-traffic-road-asphalt.23d2bd7292d7bf1230a6.jpg",
     "static/media/newspaperimg2.jpg": "/static/media/newspaperimg2.81c114d681a5cc54cefc.jpg",
     "static/media/newspaperimg1.jpg": "/static/media/newspaperimg1.dc540ef59cb40c0bf938.jpg",
     "static/media/21211028-new-york-city-cityscape-on-a-sunny-day.jpg": "/static/media/21211028-new-york-city-cityscape-on-a-sunny-day.5cd6089194752802a780.jpg",
-    "static/media/the-exterior-facade-of-a-generic-small-business-building-W8WPEA.jpg": "/static/media/the-exterior-facade-of-a-generic-small-business-building-W8WPEA.e097cf87ac3d0ab9f0b1.jpg",
     "static/media/photo-1429554429301-1c7d5ae2d42e.jpg": "/static/media/photo-1429554429301-1c7d5ae2d42e.6a87b93b84b3ff15dc80.jpg",
     "static/media/companylogo3.jpg": "/static/media/companylogo3.8e256496b157775856e7.jpg",
     "static/media/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp": "/static/media/beautiful-sunset-los-angeles-downtown-600nw-1418018357.221e7e8f58dcb5f529c4.webp",
@@ -20,12 +19,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.109a4cb8.css.map": "/static/css/main.109a4cb8.css.map",
-    "main.e5b41df2.js.map": "/static/js/main.e5b41df2.js.map",
+    "main.285883fc.css.map": "/static/css/main.285883fc.css.map",
+    "main.89a9c90f.js.map": "/static/js/main.89a9c90f.js.map",
     "483.9518aa0e.chunk.js.map": "/static/js/483.9518aa0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.109a4cb8.css",
-    "static/js/main.e5b41df2.js"
+    "static/css/main.285883fc.css",
+    "static/js/main.89a9c90f.js"
   ]
 }

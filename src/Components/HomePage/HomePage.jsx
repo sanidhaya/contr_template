@@ -57,6 +57,8 @@ const Header = () => {
 const HomePage = () => {
   return (
     <div className="homepage">
+      {/*Modal*/}
+      {/*Modal*/}
         {/*-------------Header-------------------*/}
         <Header className="header" />
         {/*-------------Header-------------------*/}

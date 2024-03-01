@@ -41,9 +41,9 @@ const Header = () => {
       <Container >
         <div className='md:w-full'>
           <Row md={4} className="toprow">
-            <Col md={4}><Link to="tel:8800353579"> <PhoneIcon fontSize="large"/>  telephone </Link></Col>
-            <Col md={5}><Link to="tel:sanidhaya08sharma11@gmail.com"> <EmailIcon fontSize="large"/> email : abc@gmail.com </Link></Col>
-            <Col md={3}><Link to="https://wa.me/1234567890"><WhatsAppIcon fontSize='large'/>1234567890</Link></Col>
+            <Col md={4}><Link to="tel:8800353579"> <PhoneIcon fontSize="large"/></Link> : Call us </Col>
+            <Col md={5}><Link to="tel:sanidhaya08sharma11@gmail.com"><EmailIcon fontSize="large"/> : Mail us </Link></Col>
+            <Col md={3}><Link to="https://wa.me/1234567890"><WhatsAppIcon fontSize='large'/></Link> : Whatsapp us </Col>
           </Row>
         </div>
       </Container>
@@ -79,7 +79,7 @@ const HomePage = () => {
         {/*-----------load more button-----------*/}
         {/*--basic bits likebest in class sols---*/}
         <div className="little-about">
-          <LittleAbout /> 
+          <LittleAbout />
         </div>
         {/*--basic bits likebest in class sols---*/}
         {/*-----------testimonials---------------*/}

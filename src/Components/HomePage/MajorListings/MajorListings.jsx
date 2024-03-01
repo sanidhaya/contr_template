@@ -7,15 +7,28 @@ import Cards from './Cards/Cards';
 import './MajorListings.css';
 
 const MajorListings = () => {
-  const settings = {
-    className: "center",
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    initialSlide: 0,
-    rows : 2,
-    centerPadding: "60px"
-  };
+
+  if(window.matchMedia("(max-width : 850px)").matches){
+    var settings = {
+      className: "center",
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      initialSlide: 0,
+      rows : 2,
+      centerPadding: "20px"
+    };
+  }else if(window.matchMedia("(min-width : 850px)").matches){
+    var settings = {
+      className: "center",
+      dots: true,
+      infinite: true,
+      slidesToShow: 4,
+      initialSlide: 0,
+      rows : 2,
+      centerPadding: "60px"
+    };
+  }
 
   return (
     <>

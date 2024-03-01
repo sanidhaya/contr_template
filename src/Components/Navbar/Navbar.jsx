@@ -6,14 +6,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import services from '../../Services';
 import logo from '../../assets/asset-images/componylogo/companylogo3.jpg'; // Import your company logo
+import './Navbar.css';
 
 
 const Navba = () => {
+
   return (
     <>
-      <Navbar bg="black" data-bs-theme="dark">
+      <Navbar collapseOnSelect expand="sm" variant='dark' bg="black" data-bs-theme="dark" >
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/" className='companylogopic'>
             <img
               src={logo}
               height="auto"
@@ -23,12 +25,14 @@ const Navba = () => {
             />
             Heera Properties
           </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/About">Features</Nav.Link>
-            <Nav.Link href="/properties">Projects</Nav.Link>
-            <Nav.Link href="/ContactUs">Contact us</Nav.Link>
-            <Nav.Link>
+          <Navbar.Toggle className='nabar-toggle' aria-controls='responsive-navbar-nav' color='black'/>
+          <Navbar.Collapse id='responsive-navbar-nav' color='black'>
+          <Nav className="me-auto nav">
+            <Nav.Link href="/" className='link'>Home</Nav.Link>
+            <Nav.Link href="/About" className='link'>Features</Nav.Link>
+            <Nav.Link href="/properties" className='link'>Projects</Nav.Link>
+            <Nav.Link href="/ContactUs" className='link'>Contact us</Nav.Link>
+            <Nav.Link className='link'>
               <Dropdown>
                 <Dropdown.Toggle variant='' id='dropdown-basic'>
                   Services
@@ -43,6 +47,7 @@ const Navba = () => {
               </Dropdown>
             </Nav.Link>
           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

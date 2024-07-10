@@ -26,14 +26,24 @@ const About = () => {
       <div className="about-content max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p className="mb-4">
-          Welcome to Heera Properties, your trusted partner in construction brokerage services.
-          With 20+ years of experience in the industry, we specialize in connecting clients
-          with the best construction professionals and projects.
+        Welcome to Heera Properties, Nashik’s premier real estate brokerage agency.
+         With over 15 years of unparalleled service, we have grown to become one of 
+         the largest and most trusted names in the industry.
         </p>
         <p className="mb-4">
-          Our mission is to streamline the construction process by providing expert advice,
-          facilitating communication between clients and contractors, and ensuring successful
-          project outcomes.
+        Our comprehensive range of services includes residential, commercial,
+         and property management solutions, tailored to meet the diverse needs of our
+          clients. Our expertise and dedication have earned us numerous awards and 
+          recognition in leading newspapers, underscoring our commitment to excellence.
+        </p>
+        <p className="mb-4">
+        At Heera Properties, our mission is to transform dreams into reality by 
+        providing exceptional real estate solutions with integrity, professionalism,
+        and personalized service. We believe in building lasting relationships with
+        our clients, grounded in trust, transparency, and mutual respect.
+        </p>
+        <p className="mb-4">
+        Explore your property dreams with Heera Properties, where your vision finds its perfect home.
         </p>
         <h2 className="text-xl font-bold mb-2">Our Services</h2>
         <ul className="list-disc pl-6 mb-4">

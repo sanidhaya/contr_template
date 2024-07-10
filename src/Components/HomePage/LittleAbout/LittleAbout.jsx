@@ -19,7 +19,14 @@ const LittleAbout = () => {
         <Col xs={12} md={6} className='littleabout'>
           <h3 className='littleaboutheading'>Little about</h3>
           <p className='littleabouttext'>
-            Here you get to know a little about the company. Some text such as LoadMore
+          Welcome to Heera Properties, your trusted partner in construction brokerage services.
+          With 20+ years of experience in the industry, we specialize in connecting clients
+          with the best construction professionals and projects.
+          <br/>
+          <br />
+          Our mission is to streamline the construction process by providing expert advice,
+          facilitating communication between clients and contractors, and ensuring successful
+          project outcomes.
           </p>
         </Col>
       </Row>

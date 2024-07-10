@@ -1,0 +1,2 @@
+map link: https://maps.google.com/?q=Gangapur%20Rd,%20Manik%20Nagar,%20Nashik,%20Maharashtra%20422005&ftid=0x3bddeb909ff99da3:0xb40ae7feca1a0b11&entry=gps&lucs=,94207317,47071704,47086688,47084304&g_st=ic
+price: rent 120 rs per sqft

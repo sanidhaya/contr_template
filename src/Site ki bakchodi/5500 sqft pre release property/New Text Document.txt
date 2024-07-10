@@ -1,0 +1,3 @@
+map link: https://maps.app.goo.gl/VoEk3j2Bt3oucFJs6?g_st=ic
+price: 5.5 cr
+roi: 7.5% (dont know what to do with this)

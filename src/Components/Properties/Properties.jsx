@@ -1,9 +1,8 @@
 import React from 'react'
-import './Properties.css'
-import image1 from '../../images/beautiful-sunset-los-angeles-downtown-600nw-1418018357.webp'
+import image1 from '../../Site ki bakchodi/15000 sq ft commercial space/WhatsApp Image 2024-02-27 at 11.28.12 AM.jpeg'
 import GoogleMaps from './googleMaps/googleMaps'
+import './Properties.css'
 import SeeAllProperties from './SeeAllProperties/SeeAllProperties'
-import SingleProperty from './singleProperty/singleProperty'
 
 
 const Properties = () => {

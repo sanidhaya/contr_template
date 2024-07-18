@@ -7,9 +7,9 @@ import Col from 'react-bootstrap/Col'
 import Container from "react-bootstrap/Container"
 import Row from 'react-bootstrap/Row'
 import { Link } from "react-router-dom"
+import image2 from '../../Site ki bakchodi/150 room hotel/WhatsApp Image 2024-07-08 at 11.32.28 AM (1).jpeg'
 import image1 from '../../Site ki bakchodi/15000 sq ft commercial space/WhatsApp Image 2024-07-08 at 11.30.45 AM.jpeg'
 import image3 from '../../Site ki bakchodi/2000 sqft shop/WhatsApp Image 2024-07-08 at 11.33.10 AM.jpeg'
-import image2 from '../../Site ki bakchodi/2000-20000 commercial space/WhatsApp Image 2024-07-08 at 11.33.13 AM (1).jpeg'
 import './HomePage.css'
 import LittleAbout from "./LittleAbout/LittleAbout"
 import MajorListings from "./MajorListings/MajorListings"

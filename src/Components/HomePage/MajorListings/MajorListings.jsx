@@ -39,7 +39,7 @@ const MajorListings = () => {
           <Slider {...settings}>
             {Properties.map((list) => (
               <div key={list.Title}>
-                <Cards listing={list} text="The text" className="slidingcard"/>
+                <Cards listing={list} text="More about the property" className="slidingcard"/>
               </div>
             ))}
           </Slider>
